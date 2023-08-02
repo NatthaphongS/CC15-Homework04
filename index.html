@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+    <title>UnderConstruction</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #1c1c1c;
+            height: 100vh;
+            min-width: 360px;
+            font-family: 'Kanit', sans-serif;
+        }
+        nav{
+            background-color: #1c1c1c;
+            padding: 5px 10px;
+            border-bottom: 2px solid rgb(63, 63, 63);
+        }
+        ul{
+            display: flex;
+            justify-content: end;
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: #f8c52b;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        main{
+            /* position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%); */
+            width: 80%;
+            margin: auto;
+            padding: 25px;
+        }
+        .container{
+            width: 100%;
+            /* background-color: beige; */
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .outbar{
+            width: 100%;
+            background-color: #444444;
+        }
+        .inbar{
+            width: 80%;
+            background-color: #f8c52b;
+            text-align: end;
+            padding: 2px;
+        }
+        .under{
+            background-color: #f8c52b;
+            font-size: 40px;
+            width: fit-content;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.2em;
+            padding-left: 0.2em;
+        }
+        .con{
+            color: #f8c52b;
+            font-size: 30px;
+            letter-spacing: 7px;
+        }
+        .upperbar{
+            margin-top: 20px;
+            margin-bottom: 5px;
+            color: #f8c52b;
+        }
+        .underbar{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            color: #f8c52b;
+            font-weight: bold;
+        }
+        .icon>img{
+            color: #f8c52b;
+            width: 40px;
+            padding: 2px;
+            border: 2.5px solid #f8c52b;
+            border-radius: 50%;
+            margin: 8px;
+            cursor: pointer;
+        }
+        img[class=linkedin]{
+            padding: 0;
+            border: none;
+        }
+        .lineup{
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+        button{
+            border: none;
+            background-color: #f8c52b;
+            color: #1c1c1c;
+            font-size: 16px;
+            padding: 10px;
+            cursor: pointer;
+            font-family: 'Kanit', sans-serif;
+        }
+        .notify{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        footer{
+            width: 90%;
+            text-align: center;
+            margin: auto;
+            border-top: 2px solid rgb(63, 63, 63);
+            color: #f8c52b;
+            padding: 5px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href=".">Home</a></li>
+        </ul>
+    </nav>
+    <div class="lineup">
+        <img src="./pic/upper.png" alt="">
+    </div>
+    <main>
+        <div class="container">
+            <div class="under">
+                <h1>UNDER</h1>
+            </div>
+            <div class="con">
+                <h4>CONSTRUCTION</h4>
+            </div>
+            <div class="upperbar">
+                <p>SITE NEARLY READY</p>
+            </div>
+            <div class="outbar">
+                <div class="inbar"><p style="font-family: 'Kanit', sans-serif;">80%</p></div>
+            </div>
+            <div class="underbar">
+                <div class="0">
+                    <p>0%</p>
+                </div>
+                <div class="100">
+                    <p>100%</p>
+                </div>
+            </div>
+            <div class="notify">
+                <button>Notify Me!</button>
+            </div>
+            <div class="icon">
+                <img src="./pic/facebook.png" alt="">
+                <img src="./pic/twitter.png" alt="">
+                <img src="./pic/linkedin.png" alt="" class="linkedin">
+                <img src="./pic/mail.png" alt="">
+            </div>
+        </div>
+    </main>
+    <div class="linedown">
+        <img src="./pic/under.png" alt="">
+    </div>
+    <footer>
+        
+        <p>@2023 by Under Construction</p>
+    </footer>
+</body>
+</html>
